@@ -56,9 +56,6 @@ ul li {
         right: 0px;
         transform: scale(1.5);
     }
-    li:not(:last-child){
-        display: none;
-    }
 }
 
 @media screen and (min-width:900px) {

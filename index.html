@@ -13,7 +13,7 @@
     <div class="nav-container-main">
         <div class="nav-container-one logo"><a href="#">Logo</a></div>
         <nav class="nav-container-two">
-            <ul>
+            <ul  id="hiddenItem" style="display: none;">
                 <li><a href="#">Home</a></li>
                 <li class="dropButton"><a href="javascript:void(0)">DropDown ↓</a>
                     <ul class="dropDownUl">
@@ -26,8 +26,8 @@
                 <li><a href="#">About</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contect</a></li>
-                <li class="lastLi"><a href="javascript:void(0)">&#9776;</a></li>
             </ul>
+            <li class="lastLi"><a href="javascript:void(0)" onclick="toogleMenu()">&#9776;</a></li>
         </nav>
     </div> <!-- end nav-container-main -->
     <header></header>
