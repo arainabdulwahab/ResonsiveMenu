@@ -10,14 +10,14 @@
 </head>
 
 <body>
-    <div>
-        <div class="Logo"><a href="#">Logo</a></div>
-        <nav>
+    <div class="nav-container-main">
+        <div class="nav-container-one logo"><a href="#">Logo</a></div>
+        <nav class="nav-container-two">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">DropDown</a>
-                    <ul>
-                        <li><a href="#">Link 1</a></li>
+                <li class="dropButton"><a href="javascript:void(0)">DropDown</a>
+                    <ul class="dropDownUl">
+                        <li ><a href="#">Link 1</a></li>
                         <li><a href="#">Link 2</a></li>
                         <li><a href="#">Link 3</a></li>
                     </ul>
@@ -26,10 +26,10 @@
                 <li><a href="#">About</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Contect</a></li>
-                <li><a href="#">&#9776;</a></li>
+                <li class="lastLi"><a href="#">&#9776;</a></li>
             </ul>
         </nav>
-    </div>
+    </div> <!-- end nav-container-main -->
     <header></header>
     <footer></footer>
     <script src="js/main.js"></script>

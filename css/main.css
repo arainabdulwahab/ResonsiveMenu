@@ -1,8 +1,56 @@
 body{
   /* background-color: aliceblue; */
+  font-family: 'Times New Roman', Times, serif;
 }
 a{
     color: black;
     text-decoration: none;
-    padding: 20px;
+    margin: 17px;
+    padding: 18px;
+    font-size: large;
+}
+ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+ul{
+    background-color: aquamarine;
+}
+li{
+    background-color: azure;
+}
+
+@media screen and (max-width:900px){
+    
+}
+
+@media screen and (min-width:900px){
+    a{
+        float: left;
+    }
+    .lastLi a{
+        display: none;
+    }
+    .nav-container-main{
+        display: flex;
+        width:80%;
+    }
+    .nav-container-one{
+        margin: 20px;
+        flex: 1;
+    }
+    .nav-container-two{
+        flex: 2;
+    }
+    .dropDownUl a{
+        display: none;
+        position: absolute;
+        min-width: 160px;
+        color: black;
+        z-index: 1;
+    }
+    .dropButton a:hover .dropdownUl{
+        display: block;
+
+    }
 }
